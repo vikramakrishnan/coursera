@@ -101,8 +101,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1563588555874" ID="ID_1461970251" MODIFIED="1563588561470" TEXT="Minimization problem"/>
@@ -113,8 +112,26 @@
 </node>
 <node CREATED="1563588595326" ID="ID_1738799748" MODIFIED="1563588602211" TEXT="Multivariate Calculus"/>
 </node>
+<node CREATED="1563895129886" ID="ID_399259052" MODIFIED="1563895245251" TEXT="sigmoid function">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      a.k.a Logistic function
+    </p>
+    <p>
+      g(z) = 1/(1+e^-z)
+    </p>
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_399259052" ENDARROW="Default" ENDINCLINATION="233;0;" ID="Arrow_ID_1659051908" SOURCE="ID_1907462364" STARTARROW="None" STARTINCLINATION="233;0;"/>
 </node>
-<node CREATED="1563587517232" FOLDED="true" ID="ID_1637496830" MODIFIED="1563594658471" POSITION="right" TEXT="Tools &amp; Environments">
+<node CREATED="1564019158732" ID="ID_414329649" MODIFIED="1564019166269" TEXT="non convex / convex fns"/>
+</node>
+<node CREATED="1563587517232" ID="ID_1637496830" MODIFIED="1564366445068" POSITION="right" TEXT="Tools &amp; Environments">
 <node CREATED="1563587736736" ID="ID_654151004" MODIFIED="1563588397961" TEXT="Octave">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -137,8 +154,7 @@
       Paid, but available for trial during the ML course.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1563587355321" ID="ID_1099848136" MODIFIED="1563594657096" POSITION="right" TEXT="Supervised Learning">
@@ -151,8 +167,7 @@
       <font color="rgb(34, 36, 37)" face="-apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif">tell what the correct answer is and ask algo to predict.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1563587527797" ID="ID_1632432831" MODIFIED="1563588397960" TEXT="Regression">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -171,20 +186,20 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1563587912500" ID="ID_1974110401" MODIFIED="1563588397960" TEXT="Linear Regression">
+<node CREATED="1563587912500" ID="ID_1974110401" MODIFIED="1564118724597" TEXT="Linear Regression">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px" charset="utf-8">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px" charset="utf-8">
       hypothesis fn is
     </p>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
       <br />
       
     </p>
-    <ul style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px">
+    <ul style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
       <li style="padding-left: 0; list-style-type: none">
         h&#952;(x) = &#952;0 + &#952;1x
       </li>
@@ -193,11 +208,18 @@
       
     </p>
     <p>
+      theta_t ' * X
+    </p>
+    <p>
+      
+    </p>
+    <p>
       Where the goal is to plot a straight line that describes the data and enables prediction for any new values.
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1563588007786" FOLDED="true" ID="ID_1902667308" MODIFIED="1563594662718" TEXT="Gradient Descent Algo">
+</html>
+</richcontent>
+<node CREATED="1563588007786" FOLDED="true" ID="ID_1902667308" MODIFIED="1564118452019" TEXT="Gradient Descent Algo">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -216,28 +238,26 @@
       The gradient descent algorithm is:
     </p>
     <p>
-      repeat until convergence:
-    </p>
-    <p>
-      &#952;j:=&#952;j&#8722;&#945;&#8706;/&#8706;&#952;jJ(&#952;0,&#952;1)
-    </p>
-    <p>
       
     </p>
     <p>
-      where
-    </p>
-    <p>
-      j=0,1 represents the feature index number
-    </p>
-    <p>
-      
+      repeat until convergence:&#160;&#952;j:=&#952;j&#8722;&#945;&#8706;/&#8706;&#952;jJ(&#952;0,&#952;1) where j=0,1 represents the feature index number
     </p>
     <p>
       Simultaneous update for both &#952;0,&#952;1 is required to keep it correct.
     </p>
+    <p>
+      
+    </p>
+    <p>
+      simplifying this further and solving the derivative terms.
+    </p>
+    <p>
+      &#160;&#952;j:=&#952;j&#8722;&#945; * sum (h(x(i) - y(i)) * x(j)(i)
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <arrowlink COLOR="#b0b0b0" DESTINATION="ID_1431588367" ENDARROW="Default" ENDINCLINATION="349;0;" ID="Arrow_ID_1414478951" STARTARROW="None" STARTINCLINATION="349;0;"/>
 <node CREATED="1563588086683" ID="ID_431018104" MODIFIED="1563588397961" TEXT="Learning Rate">
 <richcontent TYPE="NOTE"><html>
@@ -284,24 +304,31 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1563588138086" ID="ID_801053504" MODIFIED="1563588397961" TEXT="Normal Equations Method">
+<node CREATED="1563588138086" ID="ID_801053504" MODIFIED="1564342929297" TEXT="Normal Equations Method">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px" charset="utf-8">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px" charset="utf-8">
       Read Later - needs math!
     </p>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
       <br />
       
     </p>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
       This is a non iterative version to find the minimum for linear regression.
     </p>
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
+      
+    </p>
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
+      theta = Inverse(X'*X) * X' * y&#160;&#160;--- for Linear Regression.
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1563588201253" ID="ID_1851491996" MODIFIED="1563588397961" TEXT="Model &amp; Cost Function">
@@ -350,7 +377,7 @@
 </html></richcontent>
 <arrowlink DESTINATION="ID_1709997065" ENDARROW="Default" ENDINCLINATION="47;0;" ID="Arrow_ID_1928671662" STARTARROW="None" STARTINCLINATION="47;0;"/>
 </node>
-<node CREATED="1563588236043" ID="ID_1709997065" MODIFIED="1563588418679" TEXT="Cost Function">
+<node CREATED="1563588236043" ID="ID_1709997065" MODIFIED="1564343088508" TEXT="Cost Function">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -366,10 +393,10 @@
       
     </p>
     <p>
-      e.g Squared error cost function.
+      e.g Squared error cost function - this is used in Linear Regression
     </p>
     <p>
-      J(&#920;0, &#920;1)&#160;&#160;= 1/2m(sum(h(xi) - yi)^2)
+      <b>J(&#920;0, &#920;1)&#160;&#160;= 1/2m(sum(h(xi) - yi)^2)</b>
     </p>
     <p>
       Works well &amp; most commonly used for regression problems
@@ -378,43 +405,122 @@
       
     </p>
     <p>
-      
-    </p>
-    <p>
-      We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+      For Logistic Regression, this cost function takes the form
     </p>
     <p>
       
     </p>
     <p>
-      J(&#952;0,&#952;1)=1/2m&#8721;i=1..m(y^i&#8722;yi)^2
+      J(&#952;) = 1/ m &#8721; Cost(h&#952;(x(i)),y(i))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Cost(h&#952;(x),y) = &#8722;log(h&#952;(x))&#160;&#160;&#160;if y = 1
+    </p>
+    <p>
+      Cost(h&#952;(x),y) = &#8722;log(1&#8722;h&#952;(x)) if y = 0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      simplifying this in a single like
+    </p>
+    <p>
+      <b>J(&#952;) = -1/ m &#8721; (y * log(h&#952;(x)) + (1-y) *log(1&#8722;h&#952;(x))</b>
+    </p>
+    <p>
+      
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1709997065" ENDARROW="Default" ENDINCLINATION="47;0;" ID="Arrow_ID_1928671662" SOURCE="ID_328633997" STARTARROW="None" STARTINCLINATION="47;0;"/>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1564343140431" ID="ID_771549573" MODIFIED="1564343140431" TEXT=""/>
 </node>
 </node>
 </node>
-<node CREATED="1563587531106" ID="ID_1807320915" MODIFIED="1563588397961" TEXT="Classification">
+<node CREATED="1563587531106" ID="ID_1807320915" MODIFIED="1564319171277" TEXT="Classification">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px" charset="utf-8">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px" charset="utf-8">
       Discrete value estimation i.e predict results in the discrete output set.
     </p>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
       <br />
       
     </p>
-    <p style="margin-top: 0px; text-transform: none; margin-left: 0px; white-space: pre-wrap; font-size: 13px; margin-right: 0px; margin-bottom: 0px; padding-right: 0px; background-color: rgb(255, 255, 255); font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; text-align: left; color: rgb(34, 36, 37); padding-left: 0px; font-weight: 400; text-indent: 0px; padding-top: 0px; font-style: normal; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px">
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
       For e.g - is the cancer of benign or malignent. Given the algo has size of tumors vs them being benign or mal
     </p>
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
+      
+    </p>
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
+      Multiclass Classification: output set has more than 2 values instead of just binary
+    </p>
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
+      for e.g email foldering / tagging : friends, gfamily, work etc.
+    </p>
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
+      
+    </p>
+    <p style="margin-left: 0px; padding-bottom: 0px; white-space: pre-wrap; font-family: -apple-system, system-ui, Segoe UI, system-ui, Roboto, Helvetica Neue, Arial, sans-serif; margin-right: 0px; color: rgb(34, 36, 37); padding-left: 0px; text-transform: none; font-style: normal; padding-top: 0px; padding-right: 0px; margin-bottom: 0px; word-spacing: 0px; font-weight: 400; text-indent: 0px; letter-spacing: normal; background-color: rgb(255, 255, 255); margin-top: 0px; text-align: left; font-size: 13px">
+      
+    </p>
     <br class="Apple-interchange-newline" />
-    
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node CREATED="1563894584278" ID="ID_1907462364" MODIFIED="1563934896931" TEXT="Logistic Regression">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      h(theta(x)) = g(theta' * X)
+    </p>
+    <p>
+      where g(z) = 1/(1+e^-z)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      so h(theta(x)) = 1 / (1 + e ^ -(theta'*X))
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_399259052" ENDARROW="Default" ENDINCLINATION="233;0;" ID="Arrow_ID_1659051908" STARTARROW="None" STARTINCLINATION="233;0;"/>
+<node CREATED="1563934896923" ID="ID_1736237724" MODIFIED="1563934959295" TEXT="Decision Boundary">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      can be linear - straight line h(x) = theta_0 + theta_1 * x1 + theta_2 *&#160; 2
+    </p>
+    <p>
+      or can be higher order polynomial = h(x) = theta_1 * x1 ^ 2&#160;&#160;+ theta_2 * x2 ^ 2
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1564318198600" ID="ID_369986211" MODIFIED="1564318230743" TEXT="Conjugate Gradient"/>
+<node CREATED="1564318231316" ID="ID_1685498331" MODIFIED="1564318234303" TEXT="BFGS"/>
+<node CREATED="1564318237359" ID="ID_703598924" MODIFIED="1564318240439" TEXT="L-BFGS"/>
+<node CREATED="1564319177020" ID="ID_677518258" MODIFIED="1564319184397" TEXT="one vs rest  "/>
+</node>
 </node>
 <node CREATED="1563587540765" ID="ID_31791298" MODIFIED="1563588397961" TEXT="Multiple Features">
 <richcontent TYPE="NOTE"><html>
@@ -474,8 +580,7 @@
       There's no feedback based on prediction results.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1563587790079" ID="ID_1837235893" MODIFIED="1563588397961" TEXT="Clustering">
 <richcontent TYPE="NOTE"><html>
   <head>
